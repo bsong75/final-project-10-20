@@ -1,0 +1,83 @@
+.topline{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #80aa1c, #0b0f01);  
+}
+.main{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #b8ee3b, #8fc21a);       
+}
+
+.main2{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #e4c7d8, #e98dd5);       
+}
+
+.main3{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #9a99ec, #5968f0);       
+}
+
+.main4{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #e6dabb, #e0b75d);       
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+#mugshot {
+    width:300px;
+    height: 300px;
+    border-style: solid;
+    padding: 40px;
+}
+
+
+
+@keyframes example {
+    from {transform: translatex(0): red;}
+    to {transform: translateX(-400px);}
+    to {transform: translateX(-800px);}
+    }
+
+/* The element to apply the animation to 
+#imageSlider {
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    }
+
+#imageSlider2 {
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    }
+
+#imageSlider3 {
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    }
+    */
